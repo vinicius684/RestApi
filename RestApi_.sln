@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Business", "src\DevIO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Data", "src\DevIO.Data\DevIO.Data.csproj", "{2DF58A31-E6FC-4FCF-B6C9-CA117BB37F6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi", "src\RestApi\RestApi.csproj", "{A91100C2-F82A-4771-BFEE-B1D1EE18F6A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi", "src\RestApi\RestApi.csproj", "{A6AACF3E-B3FF-4412-BA3C-31898638CB82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{2DF58A31-E6FC-4FCF-B6C9-CA117BB37F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DF58A31-E6FC-4FCF-B6C9-CA117BB37F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DF58A31-E6FC-4FCF-B6C9-CA117BB37F6D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A91100C2-F82A-4771-BFEE-B1D1EE18F6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A91100C2-F82A-4771-BFEE-B1D1EE18F6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A91100C2-F82A-4771-BFEE-B1D1EE18F6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A91100C2-F82A-4771-BFEE-B1D1EE18F6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AACF3E-B3FF-4412-BA3C-31898638CB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AACF3E-B3FF-4412-BA3C-31898638CB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AACF3E-B3FF-4412-BA3C-31898638CB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AACF3E-B3FF-4412-BA3C-31898638CB82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

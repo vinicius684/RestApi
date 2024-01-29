@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
+#nullable disable
+
 namespace DevIO.Data.Migrations
 {
     [DbContext(typeof(MeuDbContext))]
@@ -16,13 +18,15 @@ namespace DevIO.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("DevIO.Business.Models.Endereco", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Bairro")
                         .IsRequired()
@@ -43,7 +47,8 @@ namespace DevIO.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(50)");
 
-                    b.Property<Guid>("FornecedorId");
+                    b.Property<Guid>("FornecedorId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Logradouro")
                         .IsRequired()
@@ -58,15 +63,17 @@ namespace DevIO.Data.Migrations
                     b.HasIndex("FornecedorId")
                         .IsUnique();
 
-                    b.ToTable("Enderecos");
+                    b.ToTable("Enderecos", (string)null);
                 });
 
             modelBuilder.Entity("DevIO.Business.Models.Fornecedor", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("Ativo");
+                    b.Property<bool>("Ativo")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Documento")
                         .IsRequired()
@@ -76,27 +83,32 @@ namespace DevIO.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(200)");
 
-                    b.Property<int>("TipoFornecedor");
+                    b.Property<int>("TipoFornecedor")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Fornecedores");
+                    b.ToTable("Fornecedores", (string)null);
                 });
 
             modelBuilder.Entity("DevIO.Business.Models.Produto", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("Ativo");
+                    b.Property<bool>("Ativo")
+                        .HasColumnType("bit");
 
-                    b.Property<DateTime>("DataCadastro");
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnType("varchar(1000)");
 
-                    b.Property<Guid>("FornecedorId");
+                    b.Property<Guid>("FornecedorId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Imagem")
                         .IsRequired()
@@ -106,13 +118,14 @@ namespace DevIO.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(200)");
 
-                    b.Property<decimal>("Valor");
+                    b.Property<decimal>("Valor")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("FornecedorId");
 
-                    b.ToTable("Produtos");
+                    b.ToTable("Produtos", (string)null);
                 });
 
             modelBuilder.Entity("DevIO.Business.Models.Endereco", b =>
@@ -120,6 +133,8 @@ namespace DevIO.Data.Migrations
                     b.HasOne("DevIO.Business.Models.Fornecedor", "Fornecedor")
                         .WithOne("Endereco")
                         .HasForeignKey("DevIO.Business.Models.Endereco", "FornecedorId");
+
+                    b.Navigation("Fornecedor");
                 });
 
             modelBuilder.Entity("DevIO.Business.Models.Produto", b =>
@@ -127,6 +142,15 @@ namespace DevIO.Data.Migrations
                     b.HasOne("DevIO.Business.Models.Fornecedor", "Fornecedor")
                         .WithMany("Produtos")
                         .HasForeignKey("FornecedorId");
+
+                    b.Navigation("Fornecedor");
+                });
+
+            modelBuilder.Entity("DevIO.Business.Models.Fornecedor", b =>
+                {
+                    b.Navigation("Endereco");
+
+                    b.Navigation("Produtos");
                 });
 #pragma warning restore 612, 618
         }
