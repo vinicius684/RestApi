@@ -4,14 +4,14 @@ namespace DevIO.Business.Notificacoes
 {
     public class Notificador : INotificador
     {
-        private List<Notificacao> _notificacoes;
+        private List<Notificacao> _notificacoes;//Lista de Notificacao
 
         public Notificador()
         {
             _notificacoes = new List<Notificacao>();
         }
 
-        public void Handle(Notificacao notificacao)
+        public void Handle(Notificacao notificacao)//adiciona a Notificacao na lista
         {
             _notificacoes.Add(notificacao);
         }
