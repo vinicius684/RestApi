@@ -1,6 +1,7 @@
 using AutoMapper;
 using DevIO.Api.Configuration;
 using DevIO.Data.Context;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +20,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.DependenciInjectionConfig();
+
+builder.Services.Configure<ApiBehaviorOptions>(options => 
+{
+    options.SuppressModelStateInvalidFilter = true;//Suprimindo a forma da validação da ViewModel Automática
+});
 
 var app = builder.Build();
 
