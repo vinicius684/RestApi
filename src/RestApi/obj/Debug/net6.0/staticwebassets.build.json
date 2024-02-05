@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "l4EbEmXmhnrhicNW2lztyK15eQ5J4DO6wvkWGS5Z2aI=",
+  "Hash": "xKmNc1enKlQNzzwx7CHxDJ2hewhMtzcuSZe3Wij1Fsw=",
   "Source": "RestApi",
   "BasePath": "_content/RestApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RestApi\\wwwroot",
+      "Source": "RestApi",
+      "ContentRoot": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\",
+      "BasePath": "_content/RestApi",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

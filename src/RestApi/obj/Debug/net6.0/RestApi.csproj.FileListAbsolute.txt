@@ -73,3 +73,4 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\RestApi.staticwebassets.runtime.json
