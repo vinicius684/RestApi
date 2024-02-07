@@ -1,0 +1,297 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\.editorconfig",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\.editorconfig"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\.gitignore",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\README.md",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\angular.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\angular.json"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\e2e\\protractor.conf.js",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\e2e\\protractor.conf.js"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\e2e\\src\\app.e2e-spec.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\e2e\\src\\app.e2e-spec.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\e2e\\src\\app.po.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\e2e\\src\\app.po.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\e2e\\tsconfig.e2e.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\e2e\\tsconfig.e2e.json"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\package-lock.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\package.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\app-routing.module.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\app-routing.module.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\app.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\app.component.html"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\app.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\app.component.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\app.module.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\app.module.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\base\\baseService.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\base\\baseService.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\base\\menu\\menu.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\base\\menu\\menu.component.html"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\base\\menu\\menu.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\base\\menu\\menu.component.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\cadastro\\cadastro.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\cadastro\\cadastro.component.html"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\cadastro\\cadastro.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\cadastro\\cadastro.component.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\lista\\lista.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\lista\\lista.component.html"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\lista\\lista.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\lista\\lista.component.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\models\\Fornecedor.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\models\\Fornecedor.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\models\\Produto.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\models\\Produto.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\services\\produtoService.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\services\\produtoService.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\user\\login\\login.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\login\\login.component.html"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\user\\login\\login.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\login\\login.component.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\user\\menu\\menu.user.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\menu\\menu.user.component.html"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\user\\menu\\menu.user.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\menu\\menu.user.component.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\user\\user.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\user.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\app\\user\\userService.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\userService.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\04e59277-e62b-4784-a536-958c6d5b4d58-Power Apps.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\04e59277-e62b-4784-a536-958c6d5b4d58-Power Apps.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\107d0687-4d20-4ca5-ba21-bc32e065f7cc_C# Completo.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\107d0687-4d20-4ca5-ba21-bc32e065f7cc_C# Completo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\2b89c5f6-c717-4956-a898-7cc3caa7e3c0-Power Apps.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\2b89c5f6-c717-4956-a898-7cc3caa7e3c0-Power Apps.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\3a8852d6-0d2a-4723-aee2-050e87ddd047-FuncoesSaoObjDePrimeiraOrdem.png",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\3a8852d6-0d2a-4723-aee2-050e87ddd047-FuncoesSaoObjDePrimeiraOrdem.png"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\4d3e2f9b-ac3e-4fdf-aa05-36e270280faa-BIniciando com ASP.NET Core.png",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\4d3e2f9b-ac3e-4fdf-aa05-36e270280faa-BIniciando com ASP.NET Core.png"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\60d88482-806b-4f24-a607-1542983e11ef-BIniciando com ASP.NET Core.png",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\60d88482-806b-4f24-a607-1542983e11ef-BIniciando com ASP.NET Core.png"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\6416eef1-f27c-40d5-887c-ae7274a924ba-CSS.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\6416eef1-f27c-40d5-887c-ae7274a924ba-CSS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\80ecdc22-2862-4b9f-985a-53efb7bd5ee6-FuncoesSaoObjDePrimeiraOrdem.png",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\80ecdc22-2862-4b9f-985a-53efb7bd5ee6-FuncoesSaoObjDePrimeiraOrdem.png"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\8371120f-329a-45a7-af8e-dce4983eb4f4_C# Completo.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\8371120f-329a-45a7-af8e-dce4983eb4f4_C# Completo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\85a4262a-64c1-41ec-8aef-977d8ee739eb-C# Completo (1).jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\85a4262a-64c1-41ec-8aef-977d8ee739eb-C# Completo (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\8ad9cc46-b106-4361-b84d-c2c7b534469e-Power Automate_PowerApps _Sharepoint.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\8ad9cc46-b106-4361-b84d-c2c7b534469e-Power Automate_PowerApps _Sharepoint.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\9ea38d4c-6631-494a-a48d-75ee3153e9fc-AFundamentos ASP.NET Core MVC (1).png",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\9ea38d4c-6631-494a-a48d-75ee3153e9fc-AFundamentos ASP.NET Core MVC (1).png"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\CSS.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\CSS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\HTML.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\HTML.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\JQuery.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\JQuery.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\Razor.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\Razor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\aa55dfc2-c2df-4669-8930-dbe9f979a34d_Heranca.png",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\aa55dfc2-c2df-4669-8930-dbe9f979a34d_Heranca.png"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\ec542ddc-0062-4122-a3c1-0ad59c953ce4-Power BI.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\ec542ddc-0062-4122-a3c1-0ad59c953ce4-Power BI.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\logo_watermark.png",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\logo_watermark.png"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\prod_60d88482-806b-4f24-a607-1542983e11ef-BIniciando com ASP.NET Core.png",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\prod_60d88482-806b-4f24-a607-1542983e11ef-BIniciando com ASP.NET Core.png"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\prod_6416eef1-f27c-40d5-887c-ae7274a924ba-CSS.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\prod_6416eef1-f27c-40d5-887c-ae7274a924ba-CSS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\prod_HTML.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\prod_HTML.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\prod_JQuery.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\prod_JQuery.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\prod_Razor.jpg",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\assets\\prod_Razor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\browserslist",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\environments\\environment.prod.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\environments\\environment.prod.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\environments\\environment.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\environments\\environment.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\favicon.ico",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\index.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\karma.conf.js",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\karma.conf.js"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\main.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\main.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\polyfills.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\polyfills.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\styles.css",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\test.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\test.ts"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\tsconfig.app.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\tsconfig.app.json"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\tsconfig.spec.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\tsconfig.spec.json"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\tslint.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\tslint.json"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\tsconfig.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\tsconfig.json"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\tslint.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\tslint.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RestApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.RestApi.props",
+      "PackagePath": "build\\RestApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.RestApi.props",
+      "PackagePath": "buildMultiTargeting\\RestApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.RestApi.props",
+      "PackagePath": "buildTransitive\\RestApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

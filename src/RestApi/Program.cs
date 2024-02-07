@@ -21,9 +21,18 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.DependenciInjectionConfig();
 
-builder.Services.Configure<ApiBehaviorOptions>(options => 
+builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;//Suprimindo a forma da validação da ViewModel Automática
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Development",
+            builder => builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+                 
 });
 
 var app = builder.Build();
@@ -35,6 +44,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("Development");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
