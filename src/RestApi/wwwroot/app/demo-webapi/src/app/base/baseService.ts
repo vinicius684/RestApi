@@ -10,7 +10,7 @@ export abstract class BaseService {
         return {
             headers: new HttpHeaders({
                 'Content-Disposition': 'form-data; name="produto"',
-                'Authorization': `Bearer ${this.obterTokenUsuario()}`
+                //'Authorization': `Bearer ${this.obterTokenUsuario()}`
             })
         };
     }

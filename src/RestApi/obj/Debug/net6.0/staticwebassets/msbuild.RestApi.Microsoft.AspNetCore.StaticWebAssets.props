@@ -480,6 +480,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\app\user\userService.ts))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\010afbe5-58eb-4750-a420-2b1aceb7d60a_FormacaoDesenvolvedorDotNet.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>RestApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RestApi</BasePath>
+      <RelativePath>app/demo-webapi/src/assets/010afbe5-58eb-4750-a420-2b1aceb7d60a_FormacaoDesenvolvedorDotNet.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\010afbe5-58eb-4750-a420-2b1aceb7d60a_FormacaoDesenvolvedorDotNet.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\04e59277-e62b-4784-a536-958c6d5b4d58-Power Apps.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>RestApi</SourceId>
@@ -512,6 +528,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\107d0687-4d20-4ca5-ba21-bc32e065f7cc_C# Completo.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\1e533bda-cd9a-46f0-ba77-eaef477e8d69_JwtNaPrática1.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>RestApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RestApi</BasePath>
+      <RelativePath>app/demo-webapi/src/assets/1e533bda-cd9a-46f0-ba77-eaef477e8d69_JwtNaPrática1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\1e533bda-cd9a-46f0-ba77-eaef477e8d69_JwtNaPrática1.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\2b89c5f6-c717-4956-a898-7cc3caa7e3c0-Power Apps.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>RestApi</SourceId>
@@ -543,6 +575,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\3a8852d6-0d2a-4723-aee2-050e87ddd047-FuncoesSaoObjDePrimeiraOrdem.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\4778e1ee-c339-4fa9-9cd0-7f09c1baf553_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>RestApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RestApi</BasePath>
+      <RelativePath>app/demo-webapi/src/assets/4778e1ee-c339-4fa9-9cd0-7f09c1baf553_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\4778e1ee-c339-4fa9-9cd0-7f09c1baf553_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\4d3e2f9b-ac3e-4fdf-aa05-36e270280faa-BIniciando com ASP.NET Core.png))">
       <SourceType>Package</SourceType>
@@ -608,6 +656,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\80ecdc22-2862-4b9f-985a-53efb7bd5ee6-FuncoesSaoObjDePrimeiraOrdem.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\81e1f221-2bc5-471b-a465-c380ab4b271f_img.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>RestApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RestApi</BasePath>
+      <RelativePath>app/demo-webapi/src/assets/81e1f221-2bc5-471b-a465-c380ab4b271f_img.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\81e1f221-2bc5-471b-a465-c380ab4b271f_img.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\8371120f-329a-45a7-af8e-dce4983eb4f4_C# Completo.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>RestApi</SourceId>
@@ -639,6 +703,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\85a4262a-64c1-41ec-8aef-977d8ee739eb-C# Completo (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\8887227e-86d3-4fd3-9f34-454ebb788784_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>RestApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RestApi</BasePath>
+      <RelativePath>app/demo-webapi/src/assets/8887227e-86d3-4fd3-9f34-454ebb788784_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\8887227e-86d3-4fd3-9f34-454ebb788784_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\8ad9cc46-b106-4361-b84d-c2c7b534469e-Power Automate_PowerApps _Sharepoint.jpg))">
       <SourceType>Package</SourceType>
@@ -704,6 +784,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\CSS.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\e02cb847-d119-44b1-909a-edf160eb0be3_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>RestApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RestApi</BasePath>
+      <RelativePath>app/demo-webapi/src/assets/e02cb847-d119-44b1-909a-edf160eb0be3_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\e02cb847-d119-44b1-909a-edf160eb0be3_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\ec542ddc-0062-4122-a3c1-0ad59c953ce4-Power BI.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>RestApi</SourceId>
@@ -719,6 +815,54 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\ec542ddc-0062-4122-a3c1-0ad59c953ce4-Power BI.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\ed18940c-1fa7-414a-9ee6-6469dedff627_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>RestApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RestApi</BasePath>
+      <RelativePath>app/demo-webapi/src/assets/ed18940c-1fa7-414a-9ee6-6469dedff627_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\ed18940c-1fa7-414a-9ee6-6469dedff627_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\f8629744-ac64-4679-815d-61367ed2987f_PartesJWT.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>RestApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RestApi</BasePath>
+      <RelativePath>app/demo-webapi/src/assets/f8629744-ac64-4679-815d-61367ed2987f_PartesJWT.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\f8629744-ac64-4679-815d-61367ed2987f_PartesJWT.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\fc9fe145-1b21-41c1-b008-690c0d73afaf_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>RestApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RestApi</BasePath>
+      <RelativePath>app/demo-webapi/src/assets/fc9fe145-1b21-41c1-b008-690c0d73afaf_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\fc9fe145-1b21-41c1-b008-690c0d73afaf_8c2bf0ef86db45ef5d2903fd6e9d8944f64b96e21b00886a474531015886f5aa.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\HTML.jpg))">
       <SourceType>Package</SourceType>

@@ -21,7 +21,7 @@ export class ProdutoService extends BaseService {
     registrarProdutoAlternativo(produto: FormData): Observable<Produto> {
 
         return this.http
-            .post(this.UrlServiceV1 + 'produtos/adicionar', produto, super.ObterHeaderFormData())
+            .post(this.UrlServiceV1 + 'produtos/adicionar', produto)
             .pipe(
                 map(super.extractData),
                 catchError(super.serviceError)
