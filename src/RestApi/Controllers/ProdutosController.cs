@@ -67,8 +67,8 @@ namespace DevIO.Api.Controllers
                 return CustomResponse();
             }
 
-            var produtoAtualizacao = await ObterProduto(id);
-            produtoViewModel.Imagem = produtoAtualizacao.Imagem;
+            var produtoAtualizacao = await ObterProduto(id);//obtem do banco
+            produtoViewModel.Imagem = produtoAtualizacao.Imagem;// seta a imagem do banco no Produto Recebido(?) pra não ser obrigado a enviar uma imagem
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             if (produtoViewModel.ImagemUpload != null)
