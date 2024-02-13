@@ -6,6 +6,7 @@ using DevIO.Data.Repository;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
+using DevIO.Business.Intefaces;
 
 namespace DevIO.Api.Configuration
 {

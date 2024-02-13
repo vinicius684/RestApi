@@ -42,6 +42,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseWebApiConfig();//
+app.UseWebApiConfig(app.Environment);//
 
 app.Run();

@@ -1,4 +1,6 @@
-﻿namespace DevIO.Api.Configuration
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace DevIO.Api.Configuration
 {
     public static class ApiConfig
     {
@@ -18,11 +20,20 @@
             return services;
         }
 
-        public static IApplicationBuilder UseWebApiConfig(this WebApplication app)
+        public static IApplicationBuilder UseWebApiConfig(this WebApplication app, IWebHostEnvironment env)
         {
-            app.UseHttpsRedirection();
+            if (env.IsDevelopment())
+            {
+                app.UseCors("Development");
+                app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
+                app.UseHsts();
+            }
 
-            app.UseCors("Development");
+            app.UseHttpsRedirection();
             
             app.UseRouting();
 
