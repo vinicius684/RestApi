@@ -1,6 +1,7 @@
 ﻿using RestApi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using DevIO.Api.Extensions;
 
 namespace RestApi.Configuration
 {
@@ -15,6 +16,7 @@ namespace RestApi.Configuration
             services.AddDefaultIdentity<IdentityUser>()//adicionando uso do identity, entre outros
                   .AddRoles<IdentityRole>()
                   .AddEntityFrameworkStores<ApplicationDbContext>()
+                  .AddErrorDescriber<IdentityMensagensPortugues>()
                   .AddDefaultTokenProviders();
 
             //// JWT
