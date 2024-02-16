@@ -24,26 +24,27 @@ namespace DevIO.Api.Configuration
         {
             if (env.IsDevelopment())
             {
-                app.UseCors("Development");
+                //app.UseCors("Development");
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-                app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
+                //app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
-            
+            app.UseHttpsRedirection();           
+          
             app.UseRouting();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-
-            app.UseAuthentication();
-            app.UseAuthorization();
+            app.MapControllers();
 
             return app;
         }

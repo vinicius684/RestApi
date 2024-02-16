@@ -12,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddWebApiConfig();//
 builder.Services.DependenciInjectionConfig();//
+builder.AddSwaggerConfig();
 
 // Add services to the container.
 builder.Services.AddDbContext<MeuDbContext>(options =>

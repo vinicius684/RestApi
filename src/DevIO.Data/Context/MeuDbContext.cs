@@ -43,6 +43,7 @@ namespace DevIO.Data.Context
                 if (entry.State == EntityState.Modified)
                 {
                     entry.Property("DataCadastro").IsModified = false;
+                    
                 }
             }
 
