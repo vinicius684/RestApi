@@ -10,3 +10,4 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Business\obj\Debug\net6.0\refint\DevIO.Business.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.pdb
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Business\obj\Debug\net6.0\ref\DevIO.Business.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.sourcelink.json

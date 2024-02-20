@@ -8,8 +8,9 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfoInputs.cache
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfo.cs
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CoreCompileInputs.cache
-C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CopyComplete
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.sourcelink.json
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.Up2Date

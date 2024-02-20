@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9vdF74me3ID77G+/URc3lVo8WULs9ZkmZHe2qZbE1oo8uGVIsqnjV93EaNBmzLvRvZXh4Z7Z4bdpitudublIlg==",
+  "dgSpecHash": "nfKJmgNXPdySzVbYhQ4OXGfLfZr9kJp1/lf4SRZtc7x/aaPeqQHfCIVgAuT+7eG5jVrp68EDY4ZPsbH4rD6I5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vpinh\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512"
+    "C:\\Users\\vpinh\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }

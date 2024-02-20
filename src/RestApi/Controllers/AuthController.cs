@@ -51,8 +51,8 @@ namespace RestApi.Controllers
             if (result.Succeeded)
             {
                 await _signInManager.SignInAsync(user, false);//login
-                return CustomResponse(GerarJwt());
-                //return CustomResponse(await GerarJwt(user.Email));
+                return CustomResponse(await GerarJwt(user.Email));
+                //return CustomResponse(GerarJwt()); Antes das Claims
             }
             foreach (var error in result.Errors)
             {
@@ -72,8 +72,8 @@ namespace RestApi.Controllers
             if (result.Succeeded)
             {
                 //_logger.LogInformation("Usuario " + loginUser.Email + " logado com sucesso");
-                return CustomResponse(GerarJwt());
-                //return CustomResponse(await GerarJwt(loginUser.Email));
+                return CustomResponse(await GerarJwt(loginUser.Email));
+                // return CustomResponse(GerarJwt()); Antes das Claims
             }
             if (result.IsLockedOut)
             {
@@ -85,24 +85,25 @@ namespace RestApi.Controllers
             return CustomResponse(loginUser);
         }
 
-        private string GerarJwt()
+        private async Task<string> GerarJwt(string email) //email adicionado para pegar claims, roles.. do user
         {
-            //var user = await _userManager.FindByEmailAsync(email);
-            //var claims = await _userManager.GetClaimsAsync(user);
-            //var userRoles = await _userManager.GetRolesAsync(user);
+            var user = await _userManager.FindByEmailAsync(email);//encontrar user por email
+            var claims = await _userManager.GetClaimsAsync(user);//pegando as claims
+            var userRoles = await _userManager.GetRolesAsync(user);//pegando roles
+            
+            //adicionando outras claims junto com as claims do user/informações interessantes/Infos que já são passadas, mas quer se certificar 
+            claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id));
+            claims.Add(new Claim(JwtRegisteredClaimNames.Email, user.Email));
+            claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
+            claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, ToUnixEpochDate(DateTime.UtcNow).ToString())); //data e hora de início de validade do token - Criado Método ToUnixEpochDate (formato hora especifico)
+            claims.Add(new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64)); //data e hora em que o token foi emitido
+            foreach (var userRole in userRoles)//adicionando ao meu JWT as Roles (Claims do Type Role)
+            {
+                claims.Add(new Claim("role", userRole));
+            }
 
-            //claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id));
-            //claims.Add(new Claim(JwtRegisteredClaimNames.Email, user.Email));
-            //claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
-            //claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, ToUnixEpochDate(DateTime.UtcNow).ToString()));
-            //claims.Add(new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64));
-            //foreach (var userRole in userRoles)
-            //{
-            //    claims.Add(new Claim("role", userRole));
-            //}
-
-            //var identityClaims = new ClaimsIdentity();
-            //identityClaims.AddClaims(claims);
+            var identityClaims = new ClaimsIdentity();//Convertendo var claims, para o tipo ClaimsIdentity
+            identityClaims.AddClaims(claims);
 
             //Gerando
             var tokenHandler = new JwtSecurityTokenHandler();
@@ -111,7 +112,7 @@ namespace RestApi.Controllers
             {
                 Issuer = _appSettings.Emissor,
                 Audience = _appSettings.ValidoEm,
-                //Subject = identityClaims,
+                Subject = identityClaims,//Passando minhas claims para o Token
                 Expires = DateTime.UtcNow.AddHours(_appSettings.ExpiracaoHoras),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             });
@@ -135,9 +136,8 @@ namespace RestApi.Controllers
 
             //    return response;
             //}
-
-            //private static long ToUnixEpochDate(DateTime date)
-            //    => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
         }
+            private static long ToUnixEpochDate(DateTime date)//Data em um formato especifico
+                    => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
     }
 }

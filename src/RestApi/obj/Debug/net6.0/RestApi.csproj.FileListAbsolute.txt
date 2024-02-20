@@ -63,7 +63,6 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\scopedcss\bundle\RestApi.styles.css
-C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\RestApi.csproj.CopyComplete
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\RestApi.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\refint\RestApi.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\RestApi.pdb
@@ -83,3 +82,5 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\RestApi.sourcelink.json
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\RestApi.csproj.Up2Date

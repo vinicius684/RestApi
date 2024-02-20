@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qd3ugEbkwTyZa6Ut2ExE4KBN8+ohOGc9+0NuIYLnMAhZX13N4ia10SgUM+pedNa2d1vAfVAWE31NCxBXgHgPsw==",
+  "dgSpecHash": "8jvXKUQSYt8+/NMfQHjTnLs05Ti9JVBflbKOgX4EfNuX8oOjMli65pumgfjtjnQ2vYaONKm78A9XGUFF9J8FMw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
@@ -44,7 +44,10 @@
     "C:\\Users\\vpinh\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\vpinh\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\vpinh\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }
