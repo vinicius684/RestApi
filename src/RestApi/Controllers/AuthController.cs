@@ -85,7 +85,7 @@ namespace RestApi.Controllers
             return CustomResponse(loginUser);
         }
 
-        private async Task<string> GerarJwt(string email) //email adicionado para pegar claims, roles.. do user
+        private async Task<LoginResponseViewModel> GerarJwt(string email) //email adicionado para pegar claims, roles.. do user
         {
             var user = await _userManager.FindByEmailAsync(email);//encontrar user por email
             var claims = await _userManager.GetClaimsAsync(user);//pegando as claims
@@ -120,22 +120,21 @@ namespace RestApi.Controllers
 
             var encodedToken = tokenHandler.WriteToken(token);//Escrevendo Token Ou Codificando
 
-            return encodedToken;
+            //return encodedToken; Antes de retornar infos a mais
 
-            //var response = new LoginResponseViewModel
-            //{
-            //    AccessToken = encodedToken,
-            //    ExpiresIn = TimeSpan.FromHours(_appSettings.ExpiracaoHoras).TotalSeconds,
-            //    UserToken = new UserTokenViewModel
-            //    {
-            //        Id = user.Id,
-            //        Email = user.Email,
-            //        Claims = claims.Select(c => new ClaimViewModel { Type = c.Type, Value = c.Value })
-            //    }
-            //};
+            var response = new LoginResponseViewModel//infos a mais
+            {
+                AccessToken = encodedToken,
+                ExpiresIn = TimeSpan.FromHours(_appSettings.ExpiracaoHoras).TotalSeconds,
+                UserToken = new UserTokenViewModel
+                {
+                    Id = user.Id,
+                    Email = user.Email,
+                    Claims = claims.Select(c => new ClaimViewModel { Type = c.Type, Value = c.Value })//criando uma instancia de ClaimViewModel para cada Claim da coleção 'claim'
+                }
+            };
 
-            //    return response;
-            //}
+            return response;
         }
             private static long ToUnixEpochDate(DateTime date)//Data em um formato especifico
                     => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
