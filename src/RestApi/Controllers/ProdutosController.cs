@@ -3,11 +3,13 @@ using DevIO.Api.Extensions;
 using DevIO.Api.ViewModels;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RestApi.Controllers;
 
 namespace DevIO.Api.Controllers
 {
+    [Authorize]
     [Route("api/produtos")]
     public class ProdutosController : MainController
     {
@@ -41,6 +43,7 @@ namespace DevIO.Api.Controllers
             return produtoViewModel;
         }
 
+        [ClaimsAuthorize("Produto", "Adicionar")]
         [HttpPost]
         public async Task<ActionResult<ProdutoViewModel>> Adicionar(ProdutoViewModel produtoViewModel)
         {
@@ -58,6 +61,7 @@ namespace DevIO.Api.Controllers
             return CustomResponse(produtoViewModel);
         }
 
+        [ClaimsAuthorize("Produto", "Atualizar")]
         [HttpPut("{id:guid}")]
         public async Task<IActionResult> Atualizar(Guid id, ProdutoViewModel produtoViewModel)
         {
@@ -94,23 +98,24 @@ namespace DevIO.Api.Controllers
 
         //Não posso enviar IFormData(IFormFile) pra um método que só aceita json ->
         // Binder personalizado para envio de IFormFile e ViewModel dentro de um FormData compatível com .NET Core 3.1 ou superior (system.text.json)
-        [HttpPost("Adicionar")]
-        public async Task<ActionResult<ProdutoViewModel>> AdicionarAlternativo(
-            [ModelBinder(BinderType = typeof(ProdutoModelBinder))] ProdutoImagemViewModel produtoImagemViewModel)
-        {
-            if (!ModelState.IsValid) return CustomResponse(ModelState);
+        //[ClaimsAuthorize("Produto", "Adicionar")]
+        //[HttpPost("Adicionar")]
+        //public async Task<ActionResult<ProdutoViewModel>> AdicionarAlternativo(
+        //    [ModelBinder(BinderType = typeof(ProdutoModelBinder))] ProdutoImagemViewModel produtoImagemViewModel)
+        //{
+        //    if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            var imgPrefixo = Guid.NewGuid() + "_";
-            if (!await UploadArquivoAlternativo(produtoImagemViewModel.ImagemUpload, imgPrefixo))
-            {
-                return CustomResponse(ModelState);
-            }
+        //    var imgPrefixo = Guid.NewGuid() + "_";
+        //    if (!await UploadArquivoAlternativo(produtoImagemViewModel.ImagemUpload, imgPrefixo))
+        //    {
+        //        return CustomResponse(ModelState);
+        //    }
 
-            produtoImagemViewModel.Imagem = imgPrefixo + produtoImagemViewModel.ImagemUpload.FileName;
-            await _produtoService.Adicionar(_mapper.Map<Produto>(produtoImagemViewModel));
+        //    produtoImagemViewModel.Imagem = imgPrefixo + produtoImagemViewModel.ImagemUpload.FileName;
+        //    await _produtoService.Adicionar(_mapper.Map<Produto>(produtoImagemViewModel));
 
-            return CustomResponse(produtoImagemViewModel);
-        }
+        //    return CustomResponse(produtoImagemViewModel);
+        //}
 
 
         //[RequestSizeLimit(40000000)]//limitado em 40 megas
@@ -121,7 +126,7 @@ namespace DevIO.Api.Controllers
         //    return Ok(file);
         //}
 
-
+        [ClaimsAuthorize("Produto", "Excluir")]
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult<ProdutoViewModel>> Excluir(Guid id)
         {

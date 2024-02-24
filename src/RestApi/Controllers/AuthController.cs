@@ -140,3 +140,39 @@ namespace RestApi.Controllers
                     => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
     }
 }
+
+//Registrar já passando as claims do novo user
+//[HttpPost("nova-conta")]
+//public async Task<ActionResult> Registrar(RegisterUserViewModel registerUser)
+//{
+//    if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+//    var user = new IdentityUser
+//    {
+//        UserName = registerUser.Email,
+//        Email = registerUser.Email,
+//        EmailConfirmed = true
+//    };
+
+//    // DEFINE CLAIMS
+//    var claims = new List<Claim>
+//    {
+//        new Claim("Teste", "Teste")
+//    };
+
+//    var result = await _userManager.CreateAsync(user, registerUser.Password);
+//    if (result.Succeeded)
+//    {
+//        // ADD CLAIMS ANTES DO LOGIN (PARA CARREGAR NO TOKEN)
+//        await _userManager.AddClaimsAsync(user, claims);
+
+//        await _signInManager.SignInAsync(user, false);
+//        return CustomResponse(await GerarJwt(user.Email));
+//    }
+//    foreach (var error in result.Errors)
+//    {
+//        NotificarErro(error.Description);
+//    }
+
+//    return CustomResponse(registerUser);
+//}

@@ -24,12 +24,12 @@ namespace DevIO.Api.Configuration
         {
             if (env.IsDevelopment())
             {
-                //app.UseCors("Development");
+                app.UseCors("Development");
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-                //app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
+                app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
                 app.UseHsts();
             }
 

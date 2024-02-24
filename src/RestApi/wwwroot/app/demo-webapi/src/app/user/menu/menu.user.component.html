@@ -1,4 +1,4 @@
-<ul [ngSwitch]="userLogado()" class="nav navbar-nav navbar-right">
+<ul [ngSwitch]="userLogado()" class="nav navbar-nav navbar-right"> <!--Esse UserLogado está em no arquivo TS, que utiliza uma função de UserService, que Herda de baseService-->>
         <li *ngSwitchCase="false"><a  class="nav-link text-dark" [routerLink]="['/entrar']">Entrar</a></li>
         <li *ngSwitchCase="true"><a  class="nav-link text-dark">{{ saudacao }}</a></li>
 </ul>

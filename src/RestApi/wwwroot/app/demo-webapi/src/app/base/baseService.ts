@@ -1,21 +1,21 @@
 import { HttpHeaders } from '@angular/common/http';
 import { throwError } from 'rxjs';
 
-export abstract class BaseService {
+export abstract class BaseService { //Todos os Métodos que estão sendo utilizados em mais de um Serviço
 
     protected UrlServiceV1: string = "https://localhost:7222/api/";
     //protected UrlServiceV1: string = "https://devioapi.azurewebsites.net/api/v1/";
 
-    protected ObterHeaderFormData() {
+    protected ObterHeaderFormData() {//Upload Alternativo, passando autorização
         return {
             headers: new HttpHeaders({
                 'Content-Disposition': 'form-data; name="produto"',
-                //'Authorization': `Bearer ${this.obterTokenUsuario()}`
+                'Authorization': `Bearer ${this.obterTokenUsuario()}`
             })
         };
     }
 
-    protected ObterHeaderJson() {
+    protected ObterHeaderJson() {//Upload Normal sem Authorization
         return {
             headers: new HttpHeaders({
                 'Content-Type': 'application/json'
@@ -23,7 +23,7 @@ export abstract class BaseService {
         };
     }
 
-    protected ObterAuthHeaderJson(){
+    protected ObterAuthHeaderJson(){ //Upload Normal passando Autorização (Token do user)
         return {
             headers: new HttpHeaders({
                 'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ export abstract class BaseService {
         };
     }
 
-    protected extractData(response: any) {
+    protected extractData(response: any) { //Extrair .data do response
         return response.data || {};
     }
 

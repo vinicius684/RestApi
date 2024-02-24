@@ -3,7 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\viewmodels\\fornecedorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\viewmodels\\fornecedorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\configuration\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\configuration\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RestApi11/True/SqlTable/dbo.Produtos.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DF58A31-E6FC-4FCF-B6C9-CA117BB37F6D}|src\\DevIO.Data\\DevIO.Data.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\devio.data\\context\\meudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,10 +46,6 @@
       "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\viewmodels\\produtoimagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\viewmodels\\fornecedorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\viewmodels\\fornecedorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\configuration\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\configuration\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,10 +58,6 @@
       "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,30 +66,14 @@
       "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\extensions\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\configuration\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\configuration\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\restapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\restapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vpinh\\AppData\\Local\\SourceServer\\d486af164d1fdf08067aa1f82ffcc01439eb7b3a844781efdad18e344304ca5a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vpinh\\AppData\\Local\\SourceServer\\9c88aa335ab6bd8830efc2ecf3d81482718753645a3c5eb8acc49db2989ebcd2\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3525848A-0F34-427A-9E54-A312DF8E7F89}|src\\DevIO.Business\\DevIO.Business.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\devio.business\\intefaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,171 +99,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Produtos [Dados]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RestApi11/True/SqlTable/dbo.Produtos.sql",
-              "ToolTip": "dbo.Produtos [Dados]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-02-20T16:00:08.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FornecedorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\FornecedorViewModel.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\ViewModels\\FornecedorViewModel.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\FornecedorViewModel.cs",
-              "RelativeToolTip": "src\\RestApi\\ViewModels\\FornecedorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T00:04:11.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppSettings.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Extensions\\AppSettings.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\Extensions\\AppSettings.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Extensions\\AppSettings.cs",
-              "RelativeToolTip": "src\\RestApi\\Extensions\\AppSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T20:42:27.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\RestApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\appsettings.json",
-              "RelativeToolTip": "src\\RestApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-14T20:43:57.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProdutoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\ProdutoViewModel.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\ViewModels\\ProdutoViewModel.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\ProdutoViewModel.cs",
-              "RelativeToolTip": "src\\RestApi\\ViewModels\\ProdutoViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T10:33:10.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\UserViewModel.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\ViewModels\\UserViewModel.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\UserViewModel.cs",
-              "RelativeToolTip": "src\\RestApi\\ViewModels\\UserViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T15:33:27.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\Program.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Program.cs",
-              "RelativeToolTip": "src\\RestApi\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-13T17:57:48.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MeuDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\DevIO.Data\\Context\\MeuDbContext.cs",
-              "RelativeDocumentMoniker": "src\\DevIO.Data\\Context\\MeuDbContext.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\DevIO.Data\\Context\\MeuDbContext.cs",
-              "RelativeToolTip": "src\\DevIO.Data\\Context\\MeuDbContext.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T14:47:49.855Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProdutoImagemViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\ProdutoImagemViewModel.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\ViewModels\\ProdutoImagemViewModel.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\ProdutoImagemViewModel.cs",
-              "RelativeToolTip": "src\\RestApi\\ViewModels\\ProdutoImagemViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T10:33:13.726Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IdentityConfig.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\IdentityConfig.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\Configuration\\IdentityConfig.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\IdentityConfig.cs",
-              "RelativeToolTip": "src\\RestApi\\Configuration\\IdentityConfig.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-13T23:44:48.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SwaggerConfig.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\SwaggerConfig.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\Configuration\\SwaggerConfig.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\SwaggerConfig.cs",
-              "RelativeToolTip": "src\\RestApi\\Configuration\\SwaggerConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T16:01:05.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\ApiConfig.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\Configuration\\ApiConfig.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\ApiConfig.cs",
-              "RelativeToolTip": "src\\RestApi\\Configuration\\ApiConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-13T17:47:01.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\RestApi\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T11:43:21.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "FornecedoresController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\FornecedoresController.cs",
               "RelativeDocumentMoniker": "src\\RestApi\\Controllers\\FornecedoresController.cs",
@@ -271,7 +119,177 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\ApiConfig.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\Configuration\\ApiConfig.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\ApiConfig.cs",
+              "RelativeToolTip": "src\\RestApi\\Configuration\\ApiConfig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-13T17:47:01.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MeuDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\DevIO.Data\\Context\\MeuDbContext.cs",
+              "RelativeDocumentMoniker": "src\\DevIO.Data\\Context\\MeuDbContext.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\DevIO.Data\\Context\\MeuDbContext.cs",
+              "RelativeToolTip": "src\\DevIO.Data\\Context\\MeuDbContext.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T14:47:49.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "src\\RestApi\\Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAADEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T12:16:41.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\ViewModels\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\UserViewModel.cs",
+              "RelativeToolTip": "src\\RestApi\\ViewModels\\UserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T15:33:27.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\Controllers\\MainController.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\MainController.cs",
+              "RelativeToolTip": "src\\RestApi\\Controllers\\MainController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T14:42:50.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FornecedorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\FornecedorViewModel.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\ViewModels\\FornecedorViewModel.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\FornecedorViewModel.cs",
+              "RelativeToolTip": "src\\RestApi\\ViewModels\\FornecedorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T00:04:11.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\Program.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Program.cs",
+              "RelativeToolTip": "src\\RestApi\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-13T17:57:48.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\RestApi\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAqwLEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T11:43:21.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProdutoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\ProdutoViewModel.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\ViewModels\\ProdutoViewModel.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\ProdutoViewModel.cs",
+              "RelativeToolTip": "src\\RestApi\\ViewModels\\ProdutoViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T10:33:10.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\RestApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\appsettings.json",
+              "RelativeToolTip": "src\\RestApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-14T20:43:57.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Extensions\\AppSettings.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\Extensions\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Extensions\\AppSettings.cs",
+              "RelativeToolTip": "src\\RestApi\\Extensions\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T20:42:27.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProdutoImagemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\ProdutoImagemViewModel.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\ViewModels\\ProdutoImagemViewModel.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\ViewModels\\ProdutoImagemViewModel.cs",
+              "RelativeToolTip": "src\\RestApi\\ViewModels\\ProdutoImagemViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T10:33:13.726Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "IdentityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\IdentityConfig.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\Configuration\\IdentityConfig.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\IdentityConfig.cs",
+              "RelativeToolTip": "src\\RestApi\\Configuration\\IdentityConfig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-13T23:44:48.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SwaggerConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\SwaggerConfig.cs",
+              "RelativeDocumentMoniker": "src\\RestApi\\Configuration\\SwaggerConfig.cs",
+              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\SwaggerConfig.cs",
+              "RelativeToolTip": "src\\RestApi\\Configuration\\SwaggerConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T16:01:05.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "RestApi.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\RestApi.csproj",
               "RelativeDocumentMoniker": "src\\RestApi\\RestApi.csproj",
@@ -283,43 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AsyncTaskMethodBuilderT.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\AppData\\Local\\SourceServer\\d486af164d1fdf08067aa1f82ffcc01439eb7b3a844781efdad18e344304ca5a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\d486af164d1fdf08067aa1f82ffcc01439eb7b3a844781efdad18e344304ca5a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
-              "ToolTip": "C:\\Users\\vpinh\\AppData\\Local\\SourceServer\\d486af164d1fdf08067aa1f82ffcc01439eb7b3a844781efdad18e344304ca5a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\d486af164d1fdf08067aa1f82ffcc01439eb7b3a844781efdad18e344304ca5a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
-              "ViewState": "AQIAAC8BAAAAAAAAAAAqwFIBAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T15:22:30.457Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\AppData\\Local\\SourceServer\\9c88aa335ab6bd8830efc2ecf3d81482718753645a3c5eb8acc49db2989ebcd2\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\9c88aa335ab6bd8830efc2ecf3d81482718753645a3c5eb8acc49db2989ebcd2\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
-              "ToolTip": "C:\\Users\\vpinh\\AppData\\Local\\SourceServer\\9c88aa335ab6bd8830efc2ecf3d81482718753645a3c5eb8acc49db2989ebcd2\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\9c88aa335ab6bd8830efc2ecf3d81482718753645a3c5eb8acc49db2989ebcd2\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
-              "ViewState": "AQIAACANAAAAAAAAAAAqwDQNAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T15:22:32.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MainController.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\MainController.cs",
-              "RelativeDocumentMoniker": "src\\RestApi\\Controllers\\MainController.cs",
-              "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Controllers\\MainController.cs",
-              "RelativeToolTip": "src\\RestApi\\Controllers\\MainController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAwwD4AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T14:42:50.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IProdutoService.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\DevIO.Business\\Intefaces\\IProdutoService.cs",
               "RelativeDocumentMoniker": "src\\DevIO.Business\\Intefaces\\IProdutoService.cs",
@@ -331,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "src\\RestApi\\Configuration\\DependencyInjectionConfig.cs",
@@ -343,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "IdentityMensagensPortugues.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Extensions\\IdentityMensagensPortugues.cs",
               "RelativeDocumentMoniker": "src\\RestApi\\Extensions\\IdentityMensagensPortugues.cs",
@@ -355,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ProdutoModelBinder.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Extensions\\ProdutoModelBinder.cs",
               "RelativeDocumentMoniker": "src\\RestApi\\Extensions\\ProdutoModelBinder.cs",
@@ -364,6 +346,39 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-13T23:39:01.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Produtos [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RestApi11/True/SqlTable/dbo.Produtos.sql",
+              "ToolTip": "dbo.Produtos [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-02-20T16:00:08.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AsyncTaskMethodBuilderT.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\AppData\\Local\\SourceServer\\d486af164d1fdf08067aa1f82ffcc01439eb7b3a844781efdad18e344304ca5a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\d486af164d1fdf08067aa1f82ffcc01439eb7b3a844781efdad18e344304ca5a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
+              "ToolTip": "C:\\Users\\vpinh\\AppData\\Local\\SourceServer\\d486af164d1fdf08067aa1f82ffcc01439eb7b3a844781efdad18e344304ca5a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\d486af164d1fdf08067aa1f82ffcc01439eb7b3a844781efdad18e344304ca5a\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
+              "ViewState": "AQIAAC8BAAAAAAAAAAAqwFIBAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T15:22:30.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\AppData\\Local\\SourceServer\\9c88aa335ab6bd8830efc2ecf3d81482718753645a3c5eb8acc49db2989ebcd2\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\9c88aa335ab6bd8830efc2ecf3d81482718753645a3c5eb8acc49db2989ebcd2\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
+              "ToolTip": "C:\\Users\\vpinh\\AppData\\Local\\SourceServer\\9c88aa335ab6bd8830efc2ecf3d81482718753645a3c5eb8acc49db2989ebcd2\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\9c88aa335ab6bd8830efc2ecf3d81482718753645a3c5eb8acc49db2989ebcd2\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
+              "ViewState": "AQIAACANAAAAAAAAAAAqwDQNAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T15:22:32.848Z"
             }
           ]
         },

@@ -29,7 +29,13 @@ export class CadastroComponent implements OnInit {
     this.produtoService.obterFornecedores()
       .subscribe(
         fornecedores => this.fornecedores = fornecedores,
-        fail => this.errors = fail.error.errors
+        fail => {
+          if (fail.error && fail.error.errors) {
+            this.errors = fail.error.errors;
+          } else {
+            console.error('Erro desconhecido:', fail);
+          }
+        }
       );
 
     this.imagemForm = new FormData();
@@ -55,7 +61,7 @@ export class CadastroComponent implements OnInit {
       let produtoForm = Object.assign({}, this.produto, this.produtoForm.value);
       produtoForm.ativo = this.produtoForm.get('ativo').value
 
-      this.produtoHandleAlternativo(produtoForm)//método trocado
+      this.produtoHandle(produtoForm)//método trocado
         .subscribe(
           result => { this.onSaveComplete(result) },
           fail => { this.onError(fail) }
@@ -93,8 +99,8 @@ export class CadastroComponent implements OnInit {
 
   upload(file: any) {
     // necessario para upload via IformFile
-    this.imagemForm = file[0];
-    this.imagemNome = file[0].name;
+    //this.imagemForm = file[0];
+    //this.imagemNome = file[0].name;
 
     // necessario para upload via base64
     var reader = new FileReader();

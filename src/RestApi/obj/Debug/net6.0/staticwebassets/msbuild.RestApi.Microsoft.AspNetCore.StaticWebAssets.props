@@ -656,6 +656,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\4d3e2f9b-ac3e-4fdf-aa05-36e270280faa-BIniciando com ASP.NET Core.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\4df8d2a2-a2cc-4ebb-b27e-9acf533595f5_))">
+      <SourceType>Package</SourceType>
+      <SourceId>RestApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RestApi</BasePath>
+      <RelativePath>app/demo-webapi/src/assets/4df8d2a2-a2cc-4ebb-b27e-9acf533595f5_</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\4df8d2a2-a2cc-4ebb-b27e-9acf533595f5_))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\app\demo-webapi\src\assets\5828a647-d6dc-4c53-b837-385586960d89_img.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>RestApi</SourceId>

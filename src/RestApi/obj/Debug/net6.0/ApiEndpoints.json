@@ -325,31 +325,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "DevIO.Api.Controllers.ProdutosController",
-    "Method": "AdicionarAlternativo",
-    "RelativePath": "api/produtos/Adicionar",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "produtoImagemViewModel",
-        "Type": "DevIO.Api.ViewModels.ProdutoImagemViewModel",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "DevIO.Api.ViewModels.ProdutoViewModel",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   }
 ]

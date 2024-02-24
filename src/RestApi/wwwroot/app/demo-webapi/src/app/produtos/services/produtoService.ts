@@ -29,7 +29,8 @@ export class ProdutoService extends BaseService {
     }
 
     registrarProduto(produto: Produto): Observable<Produto> {
-
+        const url = this.UrlServiceV1 + 'produtos'; // Aqui você pode definir a URL completa
+        console.log('URL da solicitação:', url); // Imprime a URL antes de fazer a chamada HTTP
         return this.http
             .post(this.UrlServiceV1 + 'produtos', produto, super.ObterAuthHeaderJson())
             .pipe(
@@ -40,7 +41,7 @@ export class ProdutoService extends BaseService {
 
     obterFornecedores(): Observable<Fornecedor[]> {
         return this.http
-            .get<Fornecedor[]>(this.UrlServiceV1 + 'fornecedores')
+            .get<Fornecedor[]>(this.UrlServiceV1 + 'fornecedores', super.ObterAuthHeaderJson())
             .pipe(
                 catchError(super.serviceError)
             );

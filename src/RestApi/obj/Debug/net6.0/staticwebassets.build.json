@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VfnL9I40ceculKjvjTXBlZsonOXmFeBMbFQ9KrcUA+o=",
+  "Hash": "ogz9wjQ1AdDRA7IHUoN2Hw55e+1fH1Nb4jr0XWdVV5Q=",
   "Source": "RestApi",
   "BasePath": "_content/RestApi",
   "Mode": "Default",
@@ -1934,6 +1934,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app\\demo-webapi\\src\\assets\\4d3e2f9b-ac3e-4fdf-aa05-36e270280faa-BIniciando com ASP.NET Core.png"
+    },
+    {
+      "Identity": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\4df8d2a2-a2cc-4ebb-b27e-9acf533595f5_",
+      "SourceId": "RestApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\",
+      "BasePath": "_content/RestApi",
+      "RelativePath": "app/demo-webapi/src/assets/4df8d2a2-a2cc-4ebb-b27e-9acf533595f5_",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app\\demo-webapi\\src\\assets\\4df8d2a2-a2cc-4ebb-b27e-9acf533595f5_"
     },
     {
       "Identity": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\wwwroot\\app\\demo-webapi\\src\\assets\\5828a647-d6dc-4c53-b837-385586960d89_img.jpg",

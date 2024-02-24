@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
     });
   }
 
-  login() {
+  login() { //Componente de Login (?) -> vai receber um form de login, tranformar em objeto User e Submeter no método Login do UserService
     if (this.userForm.valid && this.userForm.dirty) {
 
       let _user = Object.assign({}, this.user, this.userForm.value);
