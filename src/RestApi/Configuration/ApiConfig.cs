@@ -24,16 +24,16 @@ namespace DevIO.Api.Configuration
         {
             if (env.IsDevelopment())
             {
-                app.UseCors("Development");
+                //app.UseCors("Development");
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-                app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
-                app.UseHsts();
+               // app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
+                app.UseHsts();//Header(chave) que pasa da app pro Client, fazendo entende-ló que  minha api só conversa HTTPS
             }
 
-            app.UseHttpsRedirection();           
+            app.UseHttpsRedirection();//Se receber alguma chamada HTTP, redireciona para HTTPS e estabelecendo o HSTS           
           
             app.UseRouting();
 
