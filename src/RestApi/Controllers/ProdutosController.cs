@@ -4,11 +4,13 @@ using DevIO.Api.ViewModels;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using RestApi.Controllers;
 
 namespace DevIO.Api.Controllers
 {
+    //[DisableCors] Desabilitando Cors - Nenhum outro domínio pode acessar a Controller
     [Authorize]
     [Route("api/produtos")]
     public class ProdutosController : MainController
@@ -27,6 +29,7 @@ namespace DevIO.Api.Controllers
             _mapper = mapper;
         }
 
+        //[EnableCors("Desenvolvimento")] se não tenho cors global(app.UseCors("Development");), posso ativar para um ponto especifico
         [HttpGet]
         public async Task<IEnumerable<ProdutoViewModel>> ObterTodos()
         {

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Net.Http.Headers;
 
 namespace DevIO.Api.Configuration
 {
@@ -11,9 +12,27 @@ namespace DevIO.Api.Configuration
             services.AddCors(options =>
             {
                 options.AddPolicy("Development",
-                    builder => builder.AllowAnyOrigin()
+                    builder => builder
+                        .AllowAnyOrigin()
                         .AllowAnyMethod()
-                        .AllowAnyHeader());
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+
+                //options.AddDefaultPolicy(
+                //    builder => builder
+                //        .AllowAnyOrigin()
+                //        .AllowAnyMethod()
+                //        .AllowAnyHeader()
+                //        .AllowCredentials());
+
+                options.AddPolicy("Production",
+                   builder =>
+                       builder
+                           .WithMethods("GET")//apenas get
+                           .WithOrigins("http://desenvolvedor.io")//apenas esse site
+                           .SetIsOriginAllowedToAllowWildcardSubdomains()//Permissão para subdomínios, se a app estiver no mesmo domínio da minha api tb permito que ela converse com a api
+                           //.WithHeaders(HeaderNames.ContentType, "x-custom-header") apenas esse tipo de Header pode fazer requisição, Edu não utiliza
+                           .AllowAnyHeader());
             });
 
 
@@ -24,12 +43,13 @@ namespace DevIO.Api.Configuration
         {
             if (env.IsDevelopment())
             {
-                //app.UseCors("Development");
+                app.UseCors("Development");
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-               // app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
+                // app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
+                app.UseCors("Production");
                 app.UseHsts();//Header(chave) que pasa da app pro Client, fazendo entende-ló que  minha api só conversa HTTPS
             }
 
