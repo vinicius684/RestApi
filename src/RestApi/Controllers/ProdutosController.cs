@@ -20,7 +20,7 @@ namespace DevIO.Api.Controllers
         public ProdutosController(INotificador notificador, 
                                   IProdutoRepository produtoRepository, 
                                   IProdutoService produtoService, 
-                                  IMapper mapper) : base(notificador)
+                                  IMapper mapper, IUser user) : base(notificador, user)
         {
             _produtoRepository = produtoRepository;
             _produtoService = produtoService;
@@ -43,7 +43,7 @@ namespace DevIO.Api.Controllers
             return produtoViewModel;
         }
 
-        [ClaimsAuthorize("Produto", "Adicionar")]
+       // [ClaimsAuthorize("Produto", "Adicionar")]
         [HttpPost]
         public async Task<ActionResult<ProdutoViewModel>> Adicionar(ProdutoViewModel produtoViewModel)
         {
@@ -61,7 +61,7 @@ namespace DevIO.Api.Controllers
             return CustomResponse(produtoViewModel);
         }
 
-        [ClaimsAuthorize("Produto", "Atualizar")]
+        //[ClaimsAuthorize("Produto", "Atualizar")]
         [HttpPut("{id:guid}")]
         public async Task<IActionResult> Atualizar(Guid id, ProdutoViewModel produtoViewModel)
         {
@@ -126,7 +126,7 @@ namespace DevIO.Api.Controllers
         //    return Ok(file);
         //}
 
-        [ClaimsAuthorize("Produto", "Excluir")]
+        //[ClaimsAuthorize("Produto", "Excluir")]
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult<ProdutoViewModel>> Excluir(Guid id)
         {

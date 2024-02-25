@@ -19,7 +19,7 @@ namespace RestApi.Controllers
         private readonly IMapper _mapper;
         private readonly INotificador _notificador;
 
-        public FornecedoresController(IFornecedorRepository fornecedorrepository, IMapper mapper, IFornecedorService fornecedorService, INotificador notificador, IEnderecoRepository enderecoRepository) : base(notificador)
+        public FornecedoresController(IFornecedorRepository fornecedorrepository, IMapper mapper, IFornecedorService fornecedorService, INotificador notificador, IEnderecoRepository enderecoRepository,IUser user) : base(notificador, user)
         {
             _fornecedorRepository = fornecedorrepository;
             _mapper = mapper;
@@ -52,6 +52,16 @@ namespace RestApi.Controllers
         [HttpPost]
         public async Task<ActionResult<FornecedorViewModel>> Adicionar(FornecedorViewModel fornecedorViewModel)
         {
+            //if (User.Identity.IsAuthenticated) 
+            //{ 
+            //    var userName = User.Identity.Name;
+            //}
+
+            //if (UsuarioAutenticado)
+            //{
+            //    var userName = AppUser.GetUserEmail();
+            //}
+
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             await _fornecedorService.Adicionar(_mapper.Map<Fornecedor>(fornecedorViewModel));//Serviço de Validação + Post

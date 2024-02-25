@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using DevIO.Business.Intefaces;
+using DevIO.Api.Extensions;
 
 namespace DevIO.Api.Configuration
 {
@@ -23,8 +24,8 @@ namespace DevIO.Api.Configuration
             services.AddScoped<IFornecedorService, FornecedorService>();
              services.AddScoped<IProdutoService, ProdutoService>();
 
-            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            //services.AddScoped<IUser, AspNetUser>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<IUser, AspNetUser>();
 
             //services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
 
