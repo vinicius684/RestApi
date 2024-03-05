@@ -84,3 +84,7 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\RestApi.sourcelink.json
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\obj\Debug\net6.0\RestApi.csproj.Up2Date
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Asp.Versioning.Abstractions.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Asp.Versioning.Http.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Asp.Versioning.Mvc.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Asp.Versioning.Mvc.ApiExplorer.dll

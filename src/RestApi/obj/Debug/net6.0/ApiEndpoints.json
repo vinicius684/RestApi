@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "RestApi.Controllers.AuthController",
+    "ContainingType": "RestApi.V1.Controllers.AuthController",
     "Method": "Login",
-    "RelativePath": "api/conta/entrar",
+    "RelativePath": "api/v1/entrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -16,25 +16,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestApi.Controllers.AuthController",
-    "Method": "Registrar",
-    "RelativePath": "api/conta/nova-conta",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "registerUser",
-        "Type": "RestApi.ViewModels.RegisterUserViewModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RestApi.Controllers.FornecedoresController",
+    "ContainingType": "RestApi.V1.Controllers.FornecedoresController",
     "Method": "ObterTodos",
-    "RelativePath": "api/fornecedores",
+    "RelativePath": "api/v1/fornecedores",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -52,9 +36,9 @@
     ]
   },
   {
-    "ContainingType": "RestApi.Controllers.FornecedoresController",
+    "ContainingType": "RestApi.V1.Controllers.FornecedoresController",
     "Method": "Adicionar",
-    "RelativePath": "api/fornecedores",
+    "RelativePath": "api/v1/fornecedores",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -78,9 +62,9 @@
     ]
   },
   {
-    "ContainingType": "RestApi.Controllers.FornecedoresController",
+    "ContainingType": "RestApi.V1.Controllers.FornecedoresController",
     "Method": "ObterPorId",
-    "RelativePath": "api/fornecedores/{id}",
+    "RelativePath": "api/v1/fornecedores/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -104,9 +88,9 @@
     ]
   },
   {
-    "ContainingType": "RestApi.Controllers.FornecedoresController",
+    "ContainingType": "RestApi.V1.Controllers.FornecedoresController",
     "Method": "Atualizar",
-    "RelativePath": "api/fornecedores/{id}",
+    "RelativePath": "api/v1/fornecedores/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -135,9 +119,9 @@
     ]
   },
   {
-    "ContainingType": "RestApi.Controllers.FornecedoresController",
+    "ContainingType": "RestApi.V1.Controllers.FornecedoresController",
     "Method": "Excluir",
-    "RelativePath": "api/fornecedores/{id}",
+    "RelativePath": "api/v1/fornecedores/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -161,9 +145,9 @@
     ]
   },
   {
-    "ContainingType": "RestApi.Controllers.FornecedoresController",
+    "ContainingType": "RestApi.V1.Controllers.FornecedoresController",
     "Method": "AtualizarEndereco",
-    "RelativePath": "api/fornecedores/atualizar-endereco/{id}",
+    "RelativePath": "api/v1/fornecedores/atualizar-endereco/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -182,9 +166,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestApi.Controllers.FornecedoresController",
+    "ContainingType": "RestApi.V1.Controllers.FornecedoresController",
     "Method": "ObterEnderecoPorId",
-    "RelativePath": "api/fornecedores/obter-endereco/{id}",
+    "RelativePath": "api/v1/fornecedores/obter-endereco/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -208,9 +192,25 @@
     ]
   },
   {
-    "ContainingType": "DevIO.Api.Controllers.ProdutosController",
+    "ContainingType": "RestApi.V1.Controllers.AuthController",
+    "Method": "Registrar",
+    "RelativePath": "api/v1/nova-conta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUser",
+        "Type": "RestApi.ViewModels.RegisterUserViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestApi.V1.Controllers.ProdutosController",
     "Method": "ObterTodos",
-    "RelativePath": "api/produtos",
+    "RelativePath": "api/v1/produtos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -228,9 +228,9 @@
     ]
   },
   {
-    "ContainingType": "DevIO.Api.Controllers.ProdutosController",
+    "ContainingType": "RestApi.V1.Controllers.ProdutosController",
     "Method": "Adicionar",
-    "RelativePath": "api/produtos",
+    "RelativePath": "api/v1/produtos",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -254,9 +254,9 @@
     ]
   },
   {
-    "ContainingType": "DevIO.Api.Controllers.ProdutosController",
+    "ContainingType": "RestApi.V1.Controllers.ProdutosController",
     "Method": "ObterPorId",
-    "RelativePath": "api/produtos/{id}",
+    "RelativePath": "api/v1/produtos/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -280,9 +280,9 @@
     ]
   },
   {
-    "ContainingType": "DevIO.Api.Controllers.ProdutosController",
+    "ContainingType": "RestApi.V1.Controllers.ProdutosController",
     "Method": "Atualizar",
-    "RelativePath": "api/produtos/{id}",
+    "RelativePath": "api/v1/produtos/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -301,9 +301,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DevIO.Api.Controllers.ProdutosController",
+    "ContainingType": "RestApi.V1.Controllers.ProdutosController",
     "Method": "Excluir",
-    "RelativePath": "api/produtos/{id}",
+    "RelativePath": "api/v1/produtos/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -317,6 +317,78 @@
     "ReturnTypes": [
       {
         "Type": "DevIO.Api.ViewModels.ProdutoViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestApi.V1.Controllers.TesteController",
+    "Method": "Valor",
+    "RelativePath": "api/v1/teste",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RestApi.V1.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/v2/entrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUser",
+        "Type": "RestApi.ViewModels.LoginUserViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestApi.V1.Controllers.AuthController",
+    "Method": "Registrar",
+    "RelativePath": "api/v2/nova-conta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUser",
+        "Type": "RestApi.ViewModels.RegisterUserViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestApi.V2.Controllers.TesteController",
+    "Method": "Valor",
+    "RelativePath": "api/v2/teste",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",

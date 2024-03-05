@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "flvlHguGRibIrkW362gJAcjwpUfZ7+JVxUrtcp5DQrp5oMilGphP/nsGlPoBEeL8q/9NDpHjqubrjURRPvD2dw==",
+  "dgSpecHash": "erNPAJIOgqUFwCf2gOhcyPz9J/2ZJyQUWzQTfRZ+Z1+OckjzMKuIFglH2XA4k+X8/s/U15tD0zSLnReL5cAXFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\vpinh\\OneDrive\\Área de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\RestApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vpinh\\.nuget\\packages\\asp.versioning.abstractions\\6.2.1\\asp.versioning.abstractions.6.2.1.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\asp.versioning.http\\6.5.0\\asp.versioning.http.6.5.0.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\asp.versioning.mvc\\6.4.1\\asp.versioning.mvc.6.4.1.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\6.4.0\\asp.versioning.mvc.apiexplorer.6.4.0.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",

@@ -2,6 +2,73 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Asp.Versioning.Abstractions/6.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Asp.Versioning.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Asp.Versioning.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Asp.Versioning.Http/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Abstractions": "6.2.1"
+        },
+        "compile": {
+          "lib/net6.0/Asp.Versioning.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Asp.Versioning.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Asp.Versioning.Mvc/6.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Http": "6.5.0"
+        },
+        "compile": {
+          "lib/net6.0/Asp.Versioning.Mvc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Asp.Versioning.Mvc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Asp.Versioning.Mvc.ApiExplorer/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Mvc": "6.4.0"
+        },
+        "compile": {
+          "lib/net6.0/Asp.Versioning.Mvc.ApiExplorer.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Asp.Versioning.Mvc.ApiExplorer.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "AutoMapper/8.1.1": {
         "type": "package",
         "dependencies": {
@@ -1287,6 +1354,85 @@
     }
   },
   "libraries": {
+    "Asp.Versioning.Abstractions/6.2.1": {
+      "sha512": "1j/cuxGIBJnEnPjfkIeZ4HDD8R6uuZ3WCXPEcb8zUc967JnvlqDfp82OVNUoMkzF1kpa5AVm8RA294+81xbqIQ==",
+      "type": "package",
+      "path": "asp.versioning.abstractions/6.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.abstractions.6.2.1.nupkg.sha512",
+        "asp.versioning.abstractions.nuspec",
+        "icon.png",
+        "lib/net6.0/Asp.Versioning.Abstractions.dll",
+        "lib/net6.0/Asp.Versioning.Abstractions.pdb",
+        "lib/net6.0/Asp.Versioning.Abstractions.xml",
+        "lib/netstandard1.0/Asp.Versioning.Abstractions.dll",
+        "lib/netstandard1.0/Asp.Versioning.Abstractions.pdb",
+        "lib/netstandard1.0/Asp.Versioning.Abstractions.xml",
+        "lib/netstandard2.0/Asp.Versioning.Abstractions.dll",
+        "lib/netstandard2.0/Asp.Versioning.Abstractions.pdb",
+        "lib/netstandard2.0/Asp.Versioning.Abstractions.xml"
+      ]
+    },
+    "Asp.Versioning.Http/6.5.0": {
+      "sha512": "i3lH0Wtctp/gd393Y5AVefQK7vGAv6WMANgEn/z+PVKMU27112K6U4tryYqBJLb5RFz1jB+faVSophPXcY3XRw==",
+      "type": "package",
+      "path": "asp.versioning.http/6.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.http.6.5.0.nupkg.sha512",
+        "asp.versioning.http.nuspec",
+        "icon.png",
+        "lib/net6.0/Asp.Versioning.Http.dll",
+        "lib/net6.0/Asp.Versioning.Http.xml",
+        "lib/netcoreapp3.1/Asp.Versioning.Http.dll",
+        "lib/netcoreapp3.1/Asp.Versioning.Http.xml"
+      ]
+    },
+    "Asp.Versioning.Mvc/6.4.1": {
+      "sha512": "nTtxWJPFuYJ64J5se/ZVllRNjrFcG/dvKfz8cke3mntY92pGLKshKoXmtCl3+4jHVoJwL9R5duMt5yy/0vAfhA==",
+      "type": "package",
+      "path": "asp.versioning.mvc/6.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.mvc.6.4.1.nupkg.sha512",
+        "asp.versioning.mvc.nuspec",
+        "icon.png",
+        "lib/net6.0/Asp.Versioning.Mvc.dll",
+        "lib/net6.0/Asp.Versioning.Mvc.xml",
+        "lib/netcoreapp3.1/Asp.Versioning.Mvc.dll",
+        "lib/netcoreapp3.1/Asp.Versioning.Mvc.xml"
+      ]
+    },
+    "Asp.Versioning.Mvc.ApiExplorer/6.4.0": {
+      "sha512": "HFEJNtvnEsjhZ5LyLtD5jhVc7n40oHLfIJNl6L6YJgmDstTAt+2SEL17RpnzvwtR7JbS7X0D0Vds+86pt2u3SA==",
+      "type": "package",
+      "path": "asp.versioning.mvc.apiexplorer/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.mvc.apiexplorer.6.4.0.nupkg.sha512",
+        "asp.versioning.mvc.apiexplorer.nuspec",
+        "icon.png",
+        "lib/net6.0/Asp.Versioning.Mvc.ApiExplorer.dll",
+        "lib/net6.0/Asp.Versioning.Mvc.ApiExplorer.pdb",
+        "lib/net6.0/Asp.Versioning.Mvc.ApiExplorer.xml",
+        "lib/netcoreapp3.1/Asp.Versioning.Mvc.ApiExplorer.dll",
+        "lib/netcoreapp3.1/Asp.Versioning.Mvc.ApiExplorer.pdb",
+        "lib/netcoreapp3.1/Asp.Versioning.Mvc.ApiExplorer.xml"
+      ]
+    },
     "AutoMapper/8.1.1": {
       "sha512": "GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
       "type": "package",
@@ -3612,6 +3758,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Asp.Versioning.Mvc >= 6.4.1",
+      "Asp.Versioning.Mvc.ApiExplorer >= 6.4.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 6.1.1",
       "DevIO.Business >= 1.0.0",
       "DevIO.Data >= 1.0.0",
@@ -3675,6 +3823,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Asp.Versioning.Mvc": {
+            "target": "Package",
+            "version": "[6.4.1, )"
+          },
+          "Asp.Versioning.Mvc.ApiExplorer": {
+            "target": "Package",
+            "version": "[6.4.0, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[6.1.1, )"

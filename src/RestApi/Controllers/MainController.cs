@@ -20,7 +20,7 @@ namespace RestApi.Controllers
         private readonly INotificador _notificador;
         public readonly IUser AppUser;
 
-        protected Guid UsuarioId {  get; set; }
+        protected Guid UsuarioId { get; set; }
         protected bool UsuarioAutenticado { get; set; }
 
         protected MainController(INotificador notificador, IUser appUser)

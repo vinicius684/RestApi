@@ -1,16 +1,18 @@
-﻿using AutoMapper;
+﻿using Asp.Versioning;
+using AutoMapper;
 using DevIO.Api.Extensions;
 using DevIO.Api.ViewModels;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using RestApi.Controllers;
 
-
-namespace RestApi.Controllers
+namespace RestApi.V1.Controllers
 {
     [Authorize]
-    [Route("api/fornecedores")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/fornecedores")]
     public class FornecedoresController : MainController
     {
         private readonly IFornecedorRepository _fornecedorRepository;
@@ -19,7 +21,7 @@ namespace RestApi.Controllers
         private readonly IMapper _mapper;
         private readonly INotificador _notificador;
 
-        public FornecedoresController(IFornecedorRepository fornecedorrepository, IMapper mapper, IFornecedorService fornecedorService, INotificador notificador, IEnderecoRepository enderecoRepository,IUser user) : base(notificador, user)
+        public FornecedoresController(IFornecedorRepository fornecedorrepository, IMapper mapper, IFornecedorService fornecedorService, INotificador notificador, IEnderecoRepository enderecoRepository, IUser user) : base(notificador, user)
         {
             _fornecedorRepository = fornecedorrepository;
             _mapper = mapper;
@@ -28,13 +30,13 @@ namespace RestApi.Controllers
             _enderecoRepository = enderecoRepository;
         }
 
-
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<FornecedorViewModel>> ObterTodos()
         {
             //O Parametro é uma lista de model Fornecedor, é utilizado o Automapper para Maper para as ViewModels
             var fornecedor = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos());
-          
+
             return fornecedor;
         }
 
@@ -48,7 +50,7 @@ namespace RestApi.Controllers
             return fornecedorViewModel;
         }
 
-        [ClaimsAuthorize("Fornecedor","Adicionar")]
+        [ClaimsAuthorize("Fornecedor", "Adicionar")]
         [HttpPost]
         public async Task<ActionResult<FornecedorViewModel>> Adicionar(FornecedorViewModel fornecedorViewModel)
         {

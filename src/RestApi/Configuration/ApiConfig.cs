@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Asp.Versioning;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Net.Http.Headers;
 
 namespace DevIO.Api.Configuration
@@ -7,34 +8,47 @@ namespace DevIO.Api.Configuration
     {
         public static IServiceCollection AddWebApiConfig(this IServiceCollection services)
         {
-            services.AddControllers();
+           // services.AddControllers();
+
+            services.
+            AddApiVersioning(options =>
+            {
+                options.AssumeDefaultVersionWhenUnspecified = true;
+                options.DefaultApiVersion = new ApiVersion(1, 0);
+                options.ReportApiVersions = true;//passar no header do response falando se a api está obsoleta ou não
+
+            })
+            .AddApiExplorer(option =>
+            {
+                option.GroupNameFormat = "'v'VVV";
+                option.SubstituteApiVersionInUrl = true;
+            });
 
             services.AddCors(options =>
             {
-                options.AddPolicy("Development",
+                //    options.AddPolicy("Development",
+                //        builder => builder
+                //            .AllowAnyOrigin()
+                //            .AllowAnyMethod()
+                //            .AllowAnyHeader()
+                //            .AllowCredentials());
+
+                options.AddDefaultPolicy(
                     builder => builder
                         .AllowAnyOrigin()
                         .AllowAnyMethod()
-                        .AllowAnyHeader()
-                        .AllowCredentials());
-
-                //options.AddDefaultPolicy(
-                //    builder => builder
-                //        .AllowAnyOrigin()
-                //        .AllowAnyMethod()
-                //        .AllowAnyHeader()
+                        .AllowAnyHeader());
                 //        .AllowCredentials());
 
-                options.AddPolicy("Production",
-                   builder =>
-                       builder
-                           .WithMethods("GET")//apenas get
-                           .WithOrigins("http://desenvolvedor.io")//apenas esse site
-                           .SetIsOriginAllowedToAllowWildcardSubdomains()//Permissão para subdomínios, se a app estiver no mesmo domínio da minha api tb permito que ela converse com a api
-                           //.WithHeaders(HeaderNames.ContentType, "x-custom-header") apenas esse tipo de Header pode fazer requisição, Edu não utiliza
-                           .AllowAnyHeader());
+                //options.AddPolicy("Production",
+                //   builder =>
+                //       builder
+                //           .WithMethods("GET")//apenas get
+                //           .WithOrigins("http://desenvolvedor.io")//apenas esse site
+                //           .SetIsOriginAllowedToAllowWildcardSubdomains()//Permissão para subdomínios, se a app estiver no mesmo domínio da minha api tb permito que ela converse com a api
+                //          //.WithHeaders(HeaderNames.ContentType, "x-custom-header") apenas esse tipo de Header pode fazer requisição, Edu não utiliza
+                //           .AllowAnyHeader());
             });
-
 
             return services;
         }

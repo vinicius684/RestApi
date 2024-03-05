@@ -1,4 +1,4 @@
-﻿using DevIO.Api.Controllers;
+﻿using Asp.Versioning;
 using DevIO.Api.Extensions;
 using DevIO.Api.ViewModels;
 using DevIO.Business.Intefaces;
@@ -12,10 +12,11 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace RestApi.Controllers
+namespace RestApi.V1.Controllers
 {
-    //[ApiVersion("1.0")]
-    [Route("api/conta")]
+    [ApiVersion("1.0", Deprecated = true)]
+    [ApiVersion("2.0")]
+    [Route("api/v{version:apiVersion}")]
     public class AuthController : MainController
     {
         private readonly SignInManager<IdentityUser> _signInManager;//fazer a autenticação
@@ -90,7 +91,7 @@ namespace RestApi.Controllers
             var user = await _userManager.FindByEmailAsync(email);//encontrar user por email
             var claims = await _userManager.GetClaimsAsync(user);//pegando as claims
             var userRoles = await _userManager.GetRolesAsync(user);//pegando roles
-            
+
             //adicionando outras claims junto com as claims do user/informações interessantes/Infos que já são passadas, mas quer se certificar 
             claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id));
             claims.Add(new Claim(JwtRegisteredClaimNames.Email, user.Email));
@@ -136,8 +137,8 @@ namespace RestApi.Controllers
 
             return response;
         }
-            private static long ToUnixEpochDate(DateTime date)//Data em um formato especifico
-                    => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
+        private static long ToUnixEpochDate(DateTime date)//Data em um formato especifico
+                => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
     }
 }
 

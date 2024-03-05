@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Asp.Versioning;
+using AutoMapper;
 using DevIO.Api.Extensions;
 using DevIO.Api.ViewModels;
 using DevIO.Business.Intefaces;
@@ -8,20 +9,21 @@ using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using RestApi.Controllers;
 
-namespace DevIO.Api.Controllers
+namespace RestApi.V1.Controllers
 {
     //[DisableCors] Desabilitando Cors - Nenhum outro domínio pode acessar a Controller
     [Authorize]
-    [Route("api/produtos")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/produtos")]
     public class ProdutosController : MainController
     {
         private readonly IProdutoRepository _produtoRepository;
         private readonly IProdutoService _produtoService;
         private readonly IMapper _mapper;
 
-        public ProdutosController(INotificador notificador, 
-                                  IProdutoRepository produtoRepository, 
-                                  IProdutoService produtoService, 
+        public ProdutosController(INotificador notificador,
+                                  IProdutoRepository produtoRepository,
+                                  IProdutoService produtoService,
                                   IMapper mapper, IUser user) : base(notificador, user)
         {
             _produtoRepository = produtoRepository;
@@ -46,7 +48,7 @@ namespace DevIO.Api.Controllers
             return produtoViewModel;
         }
 
-       // [ClaimsAuthorize("Produto", "Adicionar")]
+        // [ClaimsAuthorize("Produto", "Adicionar")]
         [HttpPost]
         public async Task<ActionResult<ProdutoViewModel>> Adicionar(ProdutoViewModel produtoViewModel)
         {
