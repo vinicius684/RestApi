@@ -327,6 +327,32 @@
     ]
   },
   {
+    "ContainingType": "RestApi.V1.Controllers.ProdutosController",
+    "Method": "AdicionarAlternativo",
+    "RelativePath": "api/v1/produtos/Adicionar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoImagemViewModel",
+        "Type": "DevIO.Api.ViewModels.ProdutoImagemViewModel",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DevIO.Api.ViewModels.ProdutoViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "RestApi.V1.Controllers.TesteController",
     "Method": "Valor",
     "RelativePath": "api/v1/teste",
@@ -345,38 +371,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "RestApi.V1.Controllers.AuthController",
-    "Method": "Login",
-    "RelativePath": "api/v2/entrar",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "loginUser",
-        "Type": "RestApi.ViewModels.LoginUserViewModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RestApi.V1.Controllers.AuthController",
-    "Method": "Registrar",
-    "RelativePath": "api/v2/nova-conta",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "registerUser",
-        "Type": "RestApi.ViewModels.RegisterUserViewModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "RestApi.V2.Controllers.TesteController",

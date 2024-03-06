@@ -1,3 +1,4 @@
+using Asp.Versioning.ApiExplorer;
 using AutoMapper;
 using DevIO.Api.Configuration;
 using DevIO.Data.Context;
@@ -24,9 +25,6 @@ builder.Services.AddIdentityConfig(builder.Configuration);
 
 builder.Services.AddMvc().AddJsonOptions(options => { options.JsonSerializerOptions.NumberHandling = JsonNumberHandling.AllowReadingFromString; });
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
@@ -35,14 +33,12 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 });
 
 var app = builder.Build();
+var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
+
+app.UseSwaggerConfig(apiVersionDescriptionProvider);
 app.UseWebApiConfig(app.Environment);//
 
 app.Run();

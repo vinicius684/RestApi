@@ -102,25 +102,25 @@ namespace RestApi.V1.Controllers
         }
 
         //Não posso enviar IFormData(IFormFile) pra um método que só aceita json ->
-        // Binder personalizado para envio de IFormFile e ViewModel dentro de um FormData compatível com .NET Core 3.1 ou superior (system.text.json)
-        //[ClaimsAuthorize("Produto", "Adicionar")]
-        //[HttpPost("Adicionar")]
-        //public async Task<ActionResult<ProdutoViewModel>> AdicionarAlternativo(
-        //    [ModelBinder(BinderType = typeof(ProdutoModelBinder))] ProdutoImagemViewModel produtoImagemViewModel)
-        //{
-        //    if (!ModelState.IsValid) return CustomResponse(ModelState);
+        // Binder personalizado para envio de IFormFile e ViewModel dentro de um FormData compatível com.NET Core 3.1 ou superior (system.text.json)
+        [ClaimsAuthorize("Produto", "Adicionar")]
+        [HttpPost("Adicionar")]
+        public async Task<ActionResult<ProdutoViewModel>> AdicionarAlternativo(
+            [ModelBinder(BinderType = typeof(ProdutoModelBinder))] ProdutoImagemViewModel produtoImagemViewModel)
+        {
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-        //    var imgPrefixo = Guid.NewGuid() + "_";
-        //    if (!await UploadArquivoAlternativo(produtoImagemViewModel.ImagemUpload, imgPrefixo))
-        //    {
-        //        return CustomResponse(ModelState);
-        //    }
+            var imgPrefixo = Guid.NewGuid() + "_";
+            if (!await UploadArquivoAlternativo(produtoImagemViewModel.ImagemUpload, imgPrefixo))
+            {
+                return CustomResponse(ModelState);
+            }
 
-        //    produtoImagemViewModel.Imagem = imgPrefixo + produtoImagemViewModel.ImagemUpload.FileName;
-        //    await _produtoService.Adicionar(_mapper.Map<Produto>(produtoImagemViewModel));
+            produtoImagemViewModel.Imagem = imgPrefixo + produtoImagemViewModel.ImagemUpload.FileName;
+            await _produtoService.Adicionar(_mapper.Map<Produto>(produtoImagemViewModel));
 
-        //    return CustomResponse(produtoImagemViewModel);
-        //}
+            return CustomResponse(produtoImagemViewModel);
+        }
 
 
         //[RequestSizeLimit(40000000)]//limitado em 40 megas
