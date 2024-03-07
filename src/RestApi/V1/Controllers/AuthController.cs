@@ -23,16 +23,19 @@ namespace RestApi.V1.Controllers
         private readonly SignInManager<IdentityUser> _signInManager;//fazer a autenticação
         private readonly UserManager<IdentityUser> _userManager;//criar o user e fazer outras manipulações
         private AppSettings _appSettings;
+        private readonly ILogger _logger;
 
         public AuthController(INotificador notificador,
                               SignInManager<IdentityUser> signInManager,
                               UserManager<IdentityUser> userManager,
                               IOptions<AppSettings> appSettings,
-                              IUser user) : base(notificador, user)
+                              IUser user,
+                              ILogger<AuthController> logger) : base(notificador, user)
         {
             _signInManager = signInManager;
             _userManager = userManager;
             _appSettings = appSettings.Value;
+            _logger = logger;
         }
 
         //[EnableCors("Development")]
@@ -73,7 +76,7 @@ namespace RestApi.V1.Controllers
 
             if (result.Succeeded)
             {
-                //_logger.LogInformation("Usuario " + loginUser.Email + " logado com sucesso");
+                _logger.LogInformation("Usuario " + loginUser.Email + " logado com sucesso");
                 return CustomResponse(await GerarJwt(loginUser.Email));
                 // return CustomResponse(GerarJwt()); Antes das Claims
             }

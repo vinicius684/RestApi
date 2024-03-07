@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\configuration\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\configuration\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\v2\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\v2\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\v1\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\v1\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\v1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\v1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\v1\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\v1\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\configuration\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|solutionrelative:src\\restapi\\configuration\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6AACF3E-B3FF-4412-BA3C-31898638CB82}|src\\RestApi\\RestApi.csproj|c:\\users\\vpinh\\onedrive\\\u00E1rea de trabalho\\desenvolvedor.io\\_5restaspdotnetwebapi\\restapi_\\src\\restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,20 +135,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "src\\RestApi\\Configuration\\SwaggerConfig.cs",
               "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\SwaggerConfig.cs",
               "RelativeToolTip": "src\\RestApi\\Configuration\\SwaggerConfig.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAiwJoAAAB8AAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAqwDIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T16:01:05.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T16:01:05.128Z"
             },
             {
               "$type": "Document",
@@ -194,33 +193,35 @@
               "RelativeDocumentMoniker": "src\\RestApi\\V1\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\V1\\Controllers\\AuthController.cs",
               "RelativeToolTip": "src\\RestApi\\V1\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAIwCUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-16T11:43:21.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TesteController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\V2\\Controllers\\TesteController.cs",
               "RelativeDocumentMoniker": "src\\RestApi\\V2\\Controllers\\TesteController.cs",
               "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\V2\\Controllers\\TesteController.cs",
               "RelativeToolTip": "src\\RestApi\\V2\\Controllers\\TesteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA4wCUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T11:59:09.057Z"
+              "WhenOpened": "2024-03-05T11:59:09.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TesteController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\V1\\Controllers\\TesteController.cs",
               "RelativeDocumentMoniker": "src\\RestApi\\V1\\Controllers\\TesteController.cs",
               "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\V1\\Controllers\\TesteController.cs",
               "RelativeToolTip": "src\\RestApi\\V1\\Controllers\\TesteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T12:01:38.126Z"
+              "WhenOpened": "2024-03-05T12:01:38.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -32,12 +32,12 @@ namespace RestApi.V2.Controllers
             //    e.Ship(HttpContext);
             //}
 
-            //_logger.LogTrace("Log de Trace");
-            //_logger.LogDebug("Log de Debug");
-            //_logger.LogInformation("Log de Informação");
-            //_logger.LogWarning("Log de Aviso");
-            //_logger.LogError("Log de Erro");
-            //_logger.LogCritical("Log de Problema Critico");
+            _logger.LogTrace("Log de Trace");
+            _logger.LogDebug("Log de Debug");
+            _logger.LogInformation("Log de Informação");
+            _logger.LogWarning("Log de Aviso");
+            _logger.LogError("Log de Erro");
+            _logger.LogCritical("Log de Problema Critico");
 
             return "Sou a V2";
         }
