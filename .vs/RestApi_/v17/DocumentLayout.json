@@ -145,7 +145,7 @@
               "RelativeDocumentMoniker": "src\\RestApi\\Configuration\\SwaggerConfig.cs",
               "ToolTip": "C:\\Users\\vpinh\\OneDrive\\\u00C1rea de Trabalho\\Desenvolvedor.io\\_5RestAspDotNetWebApi\\RestApi_\\src\\RestApi\\Configuration\\SwaggerConfig.cs",
               "RelativeToolTip": "src\\RestApi\\Configuration\\SwaggerConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwJoAAAB8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-16T16:01:05.128Z",
               "EditorCaption": ""
@@ -160,8 +160,7 @@
               "RelativeToolTip": "src\\RestApi\\Configuration\\ApiConfig.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-13T17:47:01.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-13T17:47:01.324Z"
             },
             {
               "$type": "Document",
@@ -173,8 +172,7 @@
               "RelativeToolTip": "src\\RestApi\\Configuration\\DependencyInjectionConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T14:40:29.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T14:40:29.049Z"
             },
             {
               "$type": "Document",
@@ -186,8 +184,7 @@
               "RelativeToolTip": "src\\RestApi\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-13T17:57:48.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-13T17:57:48.617Z"
             },
             {
               "$type": "Document",
@@ -199,8 +196,7 @@
               "RelativeToolTip": "src\\RestApi\\V1\\Controllers\\AuthController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T11:43:21.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T11:43:21.854Z"
             },
             {
               "$type": "Document",
@@ -212,8 +208,7 @@
               "RelativeToolTip": "src\\RestApi\\V2\\Controllers\\TesteController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T11:59:09.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T11:59:09.057Z"
             },
             {
               "$type": "Document",
@@ -225,8 +220,7 @@
               "RelativeToolTip": "src\\RestApi\\V1\\Controllers\\TesteController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T12:01:38.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T12:01:38.126Z"
             },
             {
               "$type": "Document",
@@ -250,8 +244,7 @@
               "RelativeToolTip": "src\\RestApi\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-25T12:40:28.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-25T12:40:28.453Z"
             },
             {
               "$type": "Document",
@@ -263,8 +256,7 @@
               "RelativeToolTip": "src\\RestApi\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-14T20:43:57.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-14T20:43:57.954Z"
             },
             {
               "$type": "Document",
@@ -276,8 +268,7 @@
               "RelativeToolTip": "src\\RestApi\\V1\\Controllers\\ProdutosController.cs",
               "ViewState": "AQIAAFwAAAAAAAAAAAAcwGsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T12:16:41.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T12:16:41.96Z"
             },
             {
               "$type": "Document",
@@ -289,8 +280,7 @@
               "RelativeToolTip": "src\\RestApi\\Configuration\\AutomapperConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T12:31:03.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T12:31:03.592Z"
             },
             {
               "$type": "Document",
@@ -302,8 +292,7 @@
               "RelativeToolTip": "src\\RestApi\\ViewModels\\ProdutoImagemViewModel.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAA1wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T10:33:13.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T10:33:13.726Z"
             },
             {
               "$type": "Document",

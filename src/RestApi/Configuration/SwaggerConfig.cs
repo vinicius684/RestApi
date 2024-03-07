@@ -48,7 +48,7 @@ namespace DevIO.Api.Configuration
 
         public static IApplicationBuilder UseSwaggerConfig(this IApplicationBuilder app, IApiVersionDescriptionProvider provider)
         {
-            //app.UseMiddleware<SwaggerAuthorizedMiddleware>();
+            app.UseMiddleware<SwaggerAuthorizedMiddleware>();
             //if (app.Environment.IsDevelopment())
             //{
             app.UseSwagger();
@@ -100,7 +100,7 @@ namespace DevIO.Api.Configuration
         }
     }
 
-    public class SwaggerDefaultValues : IOperationFilter //herdando de IOperationFilter, do SwaggerGen //passo para adicionar o versionamento
+    public class SwaggerDefaultValues : IOperationFilter //herdando de IOperationFilter, do SwaggerGen //passo para adicionar o versionamento no swagger
     {
         public void Apply(OpenApiOperation operation, OperationFilterContext context)
         {
@@ -142,22 +142,22 @@ namespace DevIO.Api.Configuration
     {
         private readonly RequestDelegate _next;
 
-        //public SwaggerAuthorizedMiddleware(RequestDelegate next)
-        //{
-        //    _next = next;
-        //}
+        public SwaggerAuthorizedMiddleware(RequestDelegate next)
+        {
+            _next = next;
+        }
 
-        //public async Task Invoke(HttpContext context)
-        //{
-        //    if (context.Request.Path.StartsWithSegments("/swagger")
-        //        && !context.User.Identity.IsAuthenticated)
-        //    {
-        //        context.Response.StatusCode = StatusCodes.Status401Unauthorized;
-        //        return;
-        //    }
+        public async Task Invoke(HttpContext context)
+        {
+            if (context.Request.Path.StartsWithSegments("/swagger")//Se estou chamando o swagger na minha url e o não estou atutenticado então erro 401
+                && !context.User.Identity.IsAuthenticated)
+            {
+                context.Response.StatusCode = StatusCodes.Status401Unauthorized;//poderia chamar uma view ém outros cenários
+                return;
+            }
 
-        //    await _next.Invoke(context);
-        //}
+            await _next.Invoke(context);
+        }
     }
 }
 
