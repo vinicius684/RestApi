@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Asp.Versioning;
 using DevIO.Business.Intefaces;
+using Elmah.Io.AspNetCore;
 
 namespace RestApi.V2.Controllers
 {
@@ -20,17 +21,17 @@ namespace RestApi.V2.Controllers
         public string Valor()
         {
 
-            //throw new Exception("Error");
+            throw new Exception("ErrOr");
 
-            //try
-            //{
-            //    var i = 0;
-            //    var result = 42 / i;
-            //}
-            //catch (DivideByZeroException e)
-            //{
-            //    e.Ship(HttpContext);
-            //}
+            try
+            {
+                var i = 0;
+                var result = 42 / i;
+            }
+            catch (DivideByZeroException e)
+            {
+                e.Ship(HttpContext); //Ship é  um extension method do elmah para que possa enviar o erro que aconteceu para o servidor do elmah
+            }
 
             _logger.LogTrace("Log de Trace");
             _logger.LogDebug("Log de Debug");

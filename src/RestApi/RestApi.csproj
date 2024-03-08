@@ -16,6 +16,8 @@
     <PackageReference Include="Asp.Versioning.Mvc" Version="6.4.1" />
     <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="6.4.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
+    <PackageReference Include="Elmah.Io.AspNetCore" Version="5.0.56" />
+    <PackageReference Include="Elmah.Io.Extensions.Logging" Version="5.0.44" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.27" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.26" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.26" />

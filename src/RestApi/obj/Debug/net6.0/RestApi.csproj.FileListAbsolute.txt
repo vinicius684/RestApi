@@ -88,3 +88,7 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Asp.Versioning.Http.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Asp.Versioning.Mvc.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Elmah.Io.AspNetCore.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Elmah.Io.Client.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_5RestAspDotNetWebApi\RestApi_\src\RestApi\bin\Debug\net6.0\Elmah.Io.Extensions.Logging.dll

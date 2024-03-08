@@ -1,4 +1,5 @@
 ﻿using Asp.Versioning;
+using DevIO.Api.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Net.Http.Headers;
 
@@ -66,6 +67,8 @@ namespace DevIO.Api.Configuration
                 app.UseCors("Production");
                 app.UseHsts();//Header(chave) que pasa da app pro Client, fazendo entende-ló que  minha api só conversa HTTPS
             }
+
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseHttpsRedirection();//Se receber alguma chamada HTTP, redireciona para HTTPS e estabelecendo o HSTS           
           
