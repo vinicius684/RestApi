@@ -232,11 +232,31 @@
               "target": "Package",
               "version": "[6.4.0, )"
             },
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "AspNetCore.HealthChecks.UI.SqlServer.Storage": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[6.1.1, )"
             },
             "Elmah.Io.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.56, )"
+            },
+            "Elmah.Io.AspNetCore.HealthChecks": {
               "target": "Package",
               "version": "[5.0.56, )"
             },

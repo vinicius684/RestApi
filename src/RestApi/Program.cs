@@ -11,17 +11,23 @@ using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration
+    .SetBasePath(builder.Environment.ContentRootPath)
+    .AddJsonFile("appsettings.json", true, true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
+    .AddEnvironmentVariables();
 
-builder.Services.AddWebApiConfig();//
-builder.Services.DependenciInjectionConfig();//
-builder.AddSwaggerConfig();
-builder.Services.AddLoggingConfig();
-
-// Add services to the container.
 builder.Services.AddDbContext<MeuDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddWebApiConfig();//
+builder.Services.DependenciInjectionConfig();//
+builder.AddSwaggerConfig();
+builder.Services.AddLoggingConfig(builder.Configuration);
+
+// Add services to the container.
 
 builder.Services.AddIdentityConfig(builder.Configuration);
 
@@ -44,5 +50,6 @@ var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionD
 app.UseWebApiConfig(app.Environment);//
 app.UseSwaggerConfig(apiVersionDescriptionProvider);
 app.UseLoggingConfiguration();
+
 
 app.Run();
